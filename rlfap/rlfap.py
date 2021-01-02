@@ -444,7 +444,7 @@ def backjumping_search(csp, select_unassigned_variable=dom_wdeg,
             return assignment,h
 
         csp.unassign(var, assignment)
-        return assignment,-1 
+        return None,-1 
         
     
     result,nothing = backjump({})
