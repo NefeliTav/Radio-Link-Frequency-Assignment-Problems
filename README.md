@@ -2,7 +2,7 @@
 
 A typical constraint satisfaction problem using backtracking search or backjumping search.
 
-Run
+## Run
 
 ```
 python rlfap.py
